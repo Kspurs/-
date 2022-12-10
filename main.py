@@ -3,7 +3,8 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
+import datetime
+import time
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -11,11 +12,9 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    s='\n'
-    print(len(s))
-    print(s=="")
-    print(s.strip()=="")
-    print(len(s.strip()))
+    lst=["23 dd","25 dd","23 ds"]
+    lst.sort(key=lambda t:t[:2])
+    print(lst)
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
