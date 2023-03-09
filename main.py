@@ -14,7 +14,7 @@ def print_hi(name):
 if __name__ == '__main__':
     lst=["23 dd","25 dd","23 ds"]
     lst.sort(key=lambda t:t[:2])
-    print(lst)
+    print(int('0b10001',base=10))
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
